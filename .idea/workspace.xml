@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c721c5fe-1bcd-490a-aee2-eb8c1d86d8ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="c721c5fe-1bcd-490a-aee2-eb8c1d86d8ba" name="Changes" comment="add sample code for creating docker image">
+      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +44,21 @@
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/Lyfe/Testing Ground/learn-docker"
+    "last_opened_file_path": "D:/Lyfe/Testing Ground/learn-docker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.sdk"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="go run main.go" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="learn-docker" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="learn-docker" />
@@ -74,6 +85,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add sample code for creating docker image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sample code for creating docker image" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
