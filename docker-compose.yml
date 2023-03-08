@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=12345
+    networks:
+      - go-network
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - 6379:6379
+    networks:
+      - go-network
+  go-docker:
+    container_name: go-docker
+    image: learn-docker:1.0
+    ports:
+      - 8080:8080
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - go-network
+
+networks:
+  go-network:
+    name: go-network
